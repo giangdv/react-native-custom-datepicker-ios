@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.homepage     = 'n/a'
   s.authors      = { "pinguinjkeke" => "" }
-  s.source       = { :git => "https://github.com/pinguinjkeke/react-native-custom-datepicker-ios", :tag => 'v#{version}'}
+  s.source       = { :git => "https://github.com/giangdv/react-native-custom-datepicker-ios"}
   s.source_files = 'ios/*.{h,m}'
   s.platform     = :ios, "8.0"
 end
