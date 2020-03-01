@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/giangdv/react-native-custom-datepicker-ios"}
   s.source_files = 'ios/*.{h,m}'
   s.platform     = :ios, "8.0"
+
+  s.dependency 'React'
 end
